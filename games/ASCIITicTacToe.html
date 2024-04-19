@@ -1,0 +1,35 @@
+<div id="header"></div>
+
+<div class="ascii-text-div">
+    <div>Snail Vs. Turtle Tic-Tac-Toe!!</div>
+        <div id="ascii-turn-box">Up First: Snail</div>
+        <div id="ascii-winner-box">May the hardest shell win!!</div>
+    <div>
+        <div id="ascii-snail-wins" class="inline marg-right">Snail Wins: 0</div>
+        <div id="ascii-turtle-wins" class="inline">Turtle Wins: 0</div>
+    </div>
+	<input id="ascii-buttons" type="button" value="Play" onclick="resetBoard()";/>
+	<input id="ascii-buttons" type="button" value="Reset Scores" onclick="resetScores()";/>
+</div>
+<div class="ascii-flex-container">
+	<div class="ascii-row">
+        <div id="0_0" onclick="place(this)"></div>
+        <div id="1_0" onclick="place(this)"></div>
+        <div id="2_0" onclick="place(this)"></div>
+	</div>
+	<div class="ascii-row">
+        <div id="0_1" onclick="place(this)"></div>
+        <div id="1_1" onclick="place(this)"></div>
+        <div id="2_1" onclick="place(this)"></div>
+	</div>	
+	<div class="ascii-row">
+        <div id="0_2" onclick="place(this)"></div>
+        <div id="1_2" onclick="place(this)"></div>
+        <div id="2_2" onclick="place(this)"></div>
+	</div>
+</div>
+
+<div id="footer"></div>
+
+<script src="../js/second_level_header_footer.js"></script>
+<script src="../js/tttjs.js"></script>
