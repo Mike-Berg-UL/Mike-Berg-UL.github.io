@@ -11,10 +11,12 @@
     margin: 15px;
     border-radius: 5px;
     background-color: white;
+	border: 2px solid black;
 }
 #ascii-buttons:hover {
     color: white;
     background-color: black;
+	border: 2px solid white;
 }
 .ascii-inline {
     display: inline;
