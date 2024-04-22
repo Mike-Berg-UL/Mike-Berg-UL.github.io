@@ -41,11 +41,18 @@
     color: white;
 	border: 2px solid white;
 }
+/**********************************
+**********Mobile*******************
+**********************************/
 @media screen and (max-width: 600px) {
     #snake-canvas {
         width: 340px;
         height: 340px;
     }
+	#snake-play {
+		height: 70px;
+		font-size: 50px;
+	}
     .snake-text {
         text-align: center;
     }
